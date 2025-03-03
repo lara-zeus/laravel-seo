@@ -5,8 +5,8 @@
 <p align="center">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lara-zeus/laravel-seo.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/laravel-seo)
-[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/laravel-seo/run-tests.yml?label=tests&style=flat-square&branch=main)](https://github.com/lara-zeus/laravel-seo/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/laravel-seo/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/laravel-seo/actions?query=workflow%3Afix-php-code-style-issues+branch%3Amain)
+[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/laravel-seo/run-tests.yml?label=tests&style=flat-square&branch=1.x)](https://github.com/lara-zeus/laravel-seo/actions?query=workflow%3Arun-tests+branch%3A1.x)
+[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/laravel-seo/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/laravel-seo/actions?query=workflow%3Afix-php-code-style-issues+branch%3A1.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/lara-zeus/laravel-seo.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/laravel-seo)
 [![Total Downloads](https://img.shields.io/github/stars/lara-zeus/laravel-seo?style=flat-square)](https://github.com/lara-zeus/laravel-seo)
 
