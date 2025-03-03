@@ -1,0 +1,16 @@
+parameters:
+    paths:
+        - src
+
+    level: 8
+
+    universalObjectCratesClasses:
+        - Illuminate\Routing\Route
+        - LaraZeus\SEO\SEOManager
+
+    ignoreErrors:
+        - identifier: missingType.iterableValue
+        - '#^Method LaraZeus\\SEO\\SEOManager::flipp\(\) should return static\(LaraZeus\\SEO\\SEOManager\)\|string but returns array\|string\|null\.$#'
+        - '#^Method LaraZeus\\SEO\\SEOManager::previewify\(\) should return static\(LaraZeus\\SEO\\SEOManager\)\|string but returns array\|string\|null\.$#'
+        - '#^Method LaraZeus\\SEO\\SEOManager::render\(\) has parameter \$args with no type specified\.$#'
+        - '#^Parameter \#1 \$value of function e expects#'
