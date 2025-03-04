@@ -3,6 +3,7 @@
 namespace LaraZeus\SEO\Commands;
 
 use Illuminate\Console\Command;
+use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
 
 class GenerateFaviconsCommand extends Command
@@ -36,19 +37,19 @@ class GenerateFaviconsCommand extends Command
         }
 
         // GD driver doesn't support .ico, that's why we use ImageMagick.
-        $manager = new ImageManager(['driver' => 'imagick']);
+        $manager = new ImageManager(Driver::class);
 
         $this->comment('Generating ico...');
 
         $manager
-            ->make($path)
+            ->read($path)
             ->resize(32, 32)
             ->save(public_path('favicon.ico'));
 
         $this->comment('Generating png...');
 
         $manager
-            ->make($path)
+            ->read($path)
             ->resize(32, 32)
             ->save(public_path('favicon.png'));
 
