@@ -1,5 +1,7 @@
 <?php
 
+use LaraZeus\SEO\Tests\TestCase;
+
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -11,7 +13,7 @@
 |
 */
 
-uses(LaraZeus\SEO\Tests\TestCase::class)->in('Pest');
+uses(TestCase::class)->in('Pest');
 
 /*
 |--------------------------------------------------------------------------
