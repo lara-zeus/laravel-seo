@@ -5,7 +5,7 @@ weight: 1
 
 ## Prerequisites
 
-This package is built for Laravel and Filament.
+This package is built for Laravel.
 
 ## Installation
 

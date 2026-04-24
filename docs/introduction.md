@@ -3,6 +3,8 @@ title: Introduction
 weight: 1
 ---
 
+# This is a fork from [laravel-seo](https://github.com/archtechx/laravel-seo)
+
 ## Introduction
 
 @zeus laravel-seo is an extensible SEO meta-tags package for Laravel (forked and maintained by Lara Zeus).
