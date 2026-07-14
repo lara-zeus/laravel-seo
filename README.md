@@ -381,3 +381,12 @@ Run all checks locally:
 ```
 
 Code style will be automatically fixed by php-cs-fixer.
+
+## Versions
+
+| Plugin Version | Filament Version |
+| --- | --- |
+| `v1.x` | `v2.x` |
+| `v2.x` | `v3.x` |
+| `v3.x` | `v3.x` |
+
